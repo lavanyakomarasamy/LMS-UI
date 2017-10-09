@@ -1,0 +1,15 @@
+.center {
+    text-align: center;
+    color:DarkBlue ;
+}
+
+.info{
+	height: 550px;
+    width: 800px;
+    border: 1px solid white;
+    color:DarkBlue;
+    border-radius: 8px;
+    padding-left: 200px; 
+   /*  padding: 25px;
+    margin: 25px;    */
+}

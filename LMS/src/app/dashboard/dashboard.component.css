@@ -1,0 +1,22 @@
+.post-container {
+    padding: 20px;
+    margin-bottom: 20px;
+
+    font-family: Helvetica, sans-serif;
+
+    border-radius: 5px;
+    border: 2px solid #888;
+}
+
+.post-heading {
+    text-transform: uppercase;
+    color: royalblue;
+}
+
+.post-body {
+    color: #888;
+}
+
+.error {
+    color:red;
+}

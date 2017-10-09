@@ -1,0 +1,24 @@
+<div class="loginForm">
+	<h3 class="color">{{ login }}</h3>
+	<form name="form" (submit)="createPost({title: newTitle.value, body: newBody.value})">
+		<div class="form-group">
+			<div class="input-group">
+				<label for="uLogin" class="input-group-addon glyphicon glyphicon-user"></label>
+				<input type="text" class="form-control" id="uLogin" placeholder="Login">
+			</div>
+		</div> <!-- /.form-group -->
+	
+		<div class="form-group">
+			<div class="input-group">
+				<label for="uPassword" class="input-group-addon glyphicon glyphicon-lock"></label>
+				<input type="password" class="form-control" id="uPassword" placeholder="Password">
+			</div> <!-- /.input-group -->
+		</div> <!-- /.form-group -->
+		<div class="checkbox">
+			<label class="textName">
+				<input type="checkbox" class="checkboxFour"> Remember me
+			</label>
+		</div> <!-- /.checkbox -->
+		<input type="submit" class="btn btn-primary" value="Log in">
+	</form>
+</div>

@@ -1,0 +1,47 @@
+.color {
+   /*  text-align: center; */
+    color:DarkBlue ;
+}
+.loginForm{
+	height: 550px;
+    width: 400px;	
+}
+form {
+    height: 250px;
+    width: 400px;
+    border: 1px solid white;
+    background-color: DarkBlue ;
+    border-radius: 8px;    
+   
+     padding: 25px;
+    /*margin: 25px;    */
+}
+.glyphicon-user:before {
+	color: DarkBlue ;
+}
+.glyphicon-lock:before {
+	color: DarkBlue ;
+}
+.textName{	
+    color: white;
+}
+input {
+	color: DarkBlue;
+}
+.form-control {	
+    top: 1px;
+    width: 200px; 
+    text-color: DarkBlue;   
+}
+
+button {
+    color: white;
+    background-color: blue;
+    border-color: DarkBlue ;
+}
+
+button:hover {	
+    color: DarkBlue ;
+    background-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

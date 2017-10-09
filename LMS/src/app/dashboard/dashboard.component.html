@@ -1,0 +1,27 @@
+<!-- <div class="center">
+	<img src="online_leave.jpg" alt="Mountain View" style="width:304px;height:228px;">
+  
+</div> --> 
+
+<div>
+	<h3>{{ welcome }}</h3>
+	<div *ngFor="let post of posts let i=index">
+		<div *ngIf="i<5">
+			<!-- <p>{{post.title}}</p>
+			<br> -->
+			<p>{{post.body}}</p>
+			<br>
+		</div>
+	</div>
+	<p class="error" *ngIf="errorMessage">{{errorMessage}}</p>
+</div>
+	<!--<p>Some additional informations for next month</p>
+	<br>
+	<p>Plan your leave here!</p>
+	<br>
+	<p>Check your available leaves here!</p>
+	
+    <h3 class="post-heading">{{post.title}}</h3>
+
+    <p class="post-body">{{post.body}}</p></div> -->
+    
